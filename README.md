@@ -1,13 +1,13 @@
 Data Projects (TripleTen)
-# Project_14_TT
-Machine learning for Texts. Natural Language Processing
-Project-14: Automated Detection of Negative Movie Reviews Using Machine Learning
+#### Project_14_TT  Machine learning for Texts. Natural Language Processing
 
-## Project Overview
+# Project-14: Automated Detection of Negative Movie Reviews Using Machine Learning
+
+### Project Overview
 
 The **Film Junky Union** is developing a sentiment analysis system to classify movie reviews from IMDB as either positive or negative. The goal is to automatically detect negative reviews to help filter and categorize movie feedback. This project applies various machine learning models to classify movie reviews based on polarity labels (positive or negative). The objective is to build a robust classification model that achieves an **F1 score** of at least **0.85** on the test dataset.
 
-## Project Description
+### Project Description
 
 This project leverages a dataset of IMDB movie reviews that are labeled as either positive (1) or negative (0). The task is to develop a model capable of predicting the polarity of a given review. 
 
@@ -26,14 +26,14 @@ To achieve this, we followed these main steps:
 
 4. **Results**: We successfully achieved the target F1 score of **0.85** with both the Logistic Regression and LightGBM Classifier models, demonstrating their effectiveness in automatically detecting negative movie reviews.
 
-## Key Features
+### Key Features
 
 - **Data Preprocessing**: The dataset was preprocessed using text normalization, tokenization, stopword removal, and lemmatization. TF-IDF vectorization was then applied to convert text into numerical features.
 - **Modeling**: Multiple classification models were trained, with the top-performing models being Logistic Regression and LightGBM.
 - **Evaluation**: Model performance was assessed using F1 score, with all models achieving satisfactory results above the target of 0.85.
 - **Review Prediction**: In addition to model evaluation, the project includes predictions for a set of 10 manually provided movie reviews.
 
-## Data Description
+### Data Description
 
 The dataset `imdb_reviews.tsv` contains the following columns:
 - **review**: The review text.
@@ -42,7 +42,7 @@ The dataset `imdb_reviews.tsv` contains the following columns:
 
 The data was provided by **Andrew L. Maas, Raymond E. Daly, Peter T. Pham, Dan Huang, Andrew Y. Ng, and Christopher Potts (2011)** and is part of the **Learning Word Vectors for Sentiment Analysis** dataset.
 
-## Requirements
+### Requirements
 
 To run this project, the following Python libraries are required:
 
@@ -59,10 +59,12 @@ To install the dependencies, run:
 
 pip install pandas numpy matplotlib seaborn nltk scikit-learn lightgbm spacy torch transformers
 
-Conclusion
+### Conclusion
+
+
 In this project, we developed a machine learning model to automatically detect negative movie reviews from IMDB. By preprocessing the data, applying text normalization, tokenization, and TF-IDF vectorization, and training multiple classification models, we were able to achieve an F1 score of 0.88 with Logistic Regression and 0.86 with LightGBM. Both models successfully exceeded the target F1 score of 0.85.
 
-Key findings include:
+### Key findings include:
 
 Logistic Regression and LightGBM Classifier were the top-performing models.
 Models were evaluated based on F1 score, with all models performing satisfactorily.
