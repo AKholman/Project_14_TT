@@ -1,6 +1,6 @@
 Data Projects (TripleTen)
 # Project_14_TT
-Project_14_ML_for_Texts_NLP
+Machine learning for Texts. Natural Language Processing
 Project-14: Automated Detection of Negative Movie Reviews Using Machine Learning
 
 ## Project Overview
